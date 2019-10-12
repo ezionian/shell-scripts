@@ -1,0 +1,174 @@
+Script started on Thu 26 Apr 2018 05:53:02 PM IST
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+
+Password: 
+
+
+CORE_SWITCH#terminal length 0
+
+CORE_SWITCH#show log
+
+Syslog logging: enabled (0 messages dropped, 124 messages rate-limited, 0 flushes, 0 overruns, xml disabled, filtering disabled)
+
+
+
+No Active Message Discriminator.
+
+
+
+
+
+
+
+No Inactive Message Discriminator.
+
+
+
+
+
+    Console logging: level informational, 2878 messages logged, xml disabled,
+
+                     filtering disabled
+
+    Monitor logging: level debugging, 8 messages logged, xml disabled,
+
+                     filtering disabled
+
+    Buffer logging:  level informational, 3004 messages logged, xml disabled,
+
+                    filtering disabled
+
+    Exception Logging: size (4096 bytes)
+
+    Count and timestamp logging messages: disabled
+
+    File logging: disabled
+
+    Persistent logging: disabled
+
+
+
+No active filter modules.
+
+
+
+    Trap logging: level informational, 846 message lines logged
+
+        Logging Source-Interface:       VRF Name:
+
+
+
+Log Buffer (16384 bytes):
+
+
+
+*Apr 19 16:45:31.745: %IOSXE-6-PLATFORM: 1 process python: Wnweb (192.168.64.145,192.168.1.107)>>> User 'admin' logged out successfully
+
+*Apr 19 16:48:41.123: %IOSXE-6-PLATFORM: 1 process python: Wnweb (192.168.64.234,192.168.1.107)>>> User 'admin' logged in successfully
+
+*Apr 20 11:55:16.783: %LINK-5-CHANGED: Interface Vlan720, changed state to administratively down
+
+*Apr 20 11:55:17.783: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan720, changed state to down
+
+*Apr 20 11:55:28.172: %LINK-3-UPDOWN: Interface Vlan720, changed state to up
+
+*Apr 20 11:55:29.173: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan720, changed state to up
+
+*Apr 20 11:55:45.503: %SYS-5-CONFIG_I: Configured from console by vty0 (192.168.44.241)
+
+*Apr 20 12:35:31.153: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/0/15, changed state to down
+
+*Apr 20 12:35:32.161: %LINK-3-UPDOWN: Interface TenGigabitEthernet1/0/15, changed state to down
+
+*Apr 21 06:31:53.470: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/0/10, changed state to down
+
+*Apr 21 06:31:54.481: %LINK-3-UPDOWN: Interface TenGigabitEthernet1/0/10, changed state to down
+
+*Apr 21 06:32:56.892: %LINK-3-UPDOWN: Interface TenGigabitEthernet1/0/10, changed state to up
+
+*Apr 21 06:32:58.893: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/0/10, changed state to up
+
+*Apr 21 06:33:08.840: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/0/10, changed state to down
+
+*Apr 21 06:33:12.182: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/0/10, changed state to up
+
+*Apr 21 06:52:34.763: %LINK-3-UPDOWN: Interface TenGigabitEthernet1/0/15, changed state to up
+
+*Apr 21 06:52:37.394: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/0/15, changed state to up
+
+*Apr 21 09:48:47.990: %IP-4-DUPADDR: Duplicate address 192.168.64.254 on Vlan640, sourced by d0bf.9c9f.3221
+
+*Apr 21 12:51:47.771: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/0/15, changed state to down
+
+*Apr 21 12:51:48.772: %LINK-3-UPDOWN: Interface TenGigabitEthernet1/0/15, changed state to down
+
+*Apr 23 04:38:34.623: %LINK-3-UPDOWN: Interface TenGigabitEthernet1/0/15, changed state to up
+
+*Apr 23 04:38:37.223: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/0/15, changed state to up
+
+*Apr 23 08:56:24.962: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/0/10, changed state to down
+
+*Apr 23 08:56:25.970: %LINK-3-UPDOWN: Interface TenGigabitEthernet1/0/10, changed state to down
+
+*Apr 23 08:57:17.831: %LINK-3-UPDOWN: Interface TenGigabitEthernet1/0/10, changed state to up
+
+*Apr 23 08:57:19.830: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/0/10, changed state to up
+
+*Apr 23 08:57:29.912: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/0/10, changed state to down
+
+*Apr 23 08:57:33.082: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/0/10, changed state to up
+
+*Apr 23 09:05:50.301: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/0/10, changed state to down
+
+*Apr 23 09:05:51.316: %LINK-3-UPDOWN: Interface TenGigabitEthernet1/0/10, changed state to down
+
+*Apr 23 09:06:52.831: %LINK-3-UPDOWN: Interface TenGigabitEthernet1/0/10, changed state to up
+
+*Apr 23 09:06:54.831: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/0/10, changed state to up
+
+*Apr 23 09:07:04.853: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/0/10, changed state to down
+
+*Apr 23 09:07:08.030: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/0/10, changed state to up
+
+*Apr 24 04:34:16.942: %IOSXE-6-PLATFORM: 1 process python: Wnweb (192.168.64.230,192.168.1.107)>>> User 'admin' logged in successfully
+
+*Apr 24 04:35:50.801: %IOSXE-6-PLATFORM: 1 process python: Wnweb (192.168.64.230,192.168.1.107)>>> User 'admin' logged out successfully
+
+*Apr 25 07:09:35.591: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/0/10, changed state to down
+
+*Apr 25 07:09:36.592: %LINK-3-UPDOWN: Interface TenGigabitEthernet1/0/10, changed state to down
+
+*Apr 25 07:10:31.671: %LINK-3-UPDOWN: Interface TenGigabitEthernet1/0/10, changed state to up
+
+*Apr 25 07:10:33.671: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/0/10, changed state to up
+
+*Apr 25 07:10:43.741: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/0/10, changed state to down
+
+*Apr 25 07:10:47.072: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/0/10, changed state to up
+
+*Apr 25 08:39:51.592: %SYS-5-CONFIG_I: Configured from console by vty0 (192.168.64.185)
+
+*Apr 25 10:29:50.672: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/0/13, changed state to down
+
+*Apr 25 10:29:51.683: %LINK-3-UPDOWN: Interface TenGigabitEthernet1/0/13, changed state to down
+
+*Apr 25 10:30:34.813: %LINK-3-UPDOWN: Interface TenGigabitEthernet1/0/13, changed state to up
+
+*Apr 25 10:30:36.824: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/0/13, changed state to up
+
+*Apr 25 10:30:47.613: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/0/13, changed state to down
+
+*Apr 25 10:30:50.952: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/0/13, changed state to up
+
+*Apr 25 15:41:29.746: %SSH-4-SSH2_UNEXPECTED_MSG: Unexpected message type has arrived. Terminating the connection from 192.168.64.185
+
+*Apr 25 16:01:23.922: %SSH-4-SSH2_UNEXPECTED_MSG: Unexpected message type has arrived. Terminating the connection from 192.168.64.185
+
+*Apr 25 16:09:56.679: %SYS-5-CONFIG_I: Configured from console by admin on vty0 (192.168.64.185)
+
+*Apr 26 11:51:50.136: %SSH-4-SSH2_UNEXPECTED_MSG: Unexpected message type has arrived. Terminating the connection from 192.168.64.145
+
+CORE_SWITCH#Connection to 192.168.64.254 closed by remote host.
+
+
+Script done on Thu 26 Apr 2018 05:53:06 PM IST
